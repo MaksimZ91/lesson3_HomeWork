@@ -115,7 +115,7 @@ for (int i = 1; i <= N; i++)
   int temp = Convert.ToInt32(Console.ReadLine());
   if (temp < -50 || temp > 50)
   {
-    Console.WriteLine("Введеная температура выходит за пределы -50 / 50");
+    Console.WriteLine("Введенная температура выходит за пределы -50 / 50");
     Console.Write("Введите температуру: ");
     temp = Convert.ToInt32(Console.ReadLine());
   }
